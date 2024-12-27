@@ -1,0 +1,11 @@
+services:
+  kafka:
+    image: apache/kafka:latest
+    ports:
+      - 9092:9092
+    networks:
+      - urls-scraper
+
+networks:
+  urls-scraper:
+    driver: bridge

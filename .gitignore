@@ -1,0 +1,63 @@
+# Build Outputs
+build/
+dist/
+.out/
+.outs/
+
+# Bundler Files
+.next/
+.nuxt/
+.parcel-cache/
+.pnp/
+.pnp.js
+.snowpack/
+.svelte-kit/
+
+# Dependency Directories
+node_modules/
+
+# Environment And Secrets
+.env
+.env.*.local
+
+# IDE And Editor Files
+.idea/
+.project
+.settings/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package Manager Files
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.swp
+*.temp
+*.tmp
+
+# Testing
+.jest/
+.nyc_output/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Other
+.cache/
+.eslintcache
+.prettiercache
+.stylelintcache
